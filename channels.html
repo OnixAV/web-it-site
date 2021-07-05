@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="head">
+        <div class="wrap">
+            <div class="nav">
+                <div class="logo">
+                    <img class="sign_logo" src="img/sign.png" alt="">
+                    <p class="video_logo_text">Видеосервис</p>
+                </div>
+                <div class="finder">
+                    <input class="search" type="search" placeholder="Поиск...">
+                    <button class="btn_find">Найти</button>
+                </div>
+                <div class="login_lk">
+                    <p id="auth" class="name_user"></p>
+                    <button class="btn_lk" id="myBtn">Войти</button>
+                </div>
+            </div>
+            <!-- <div class="film_or_tv">
+                <a class="film_link" id="film_click" href="index.html">
+                    <p class="film film-film">Фильмы</p>
+                </a>
+                <a class="tv_link" id="tv_click" href="channels.html">
+                    <p class="tv tv-tv">Телеканалы</p>
+                </a>
+            </div> -->
+            <div class="film_or_tv">
+                <div class="itemx_film_or_tv">
+                    <a class="film_link" id="film_click" href="index.html">
+                        <p class="film film-film">Фильмы</p>
+                    </a>
+                    <a class="tv_link" id="tv_click" href="channels.html">
+                        <p class="tv tv-tv">Телеканалы</p>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="wrap">
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <div class="wrap_modal">
+                    <h1 class="title_modal">Вход</h1>
+                    <form action="" name="log_in">
+                        <input id="in_login" class="login" type="search" name="lg" placeholder="Логин">
+                        <input id="in_pass" class="pass" type="search" name="pw" placeholder="Пароль">
+                        <p class="remember_p"><input class="remember_i" type="checkbox" name="ok"
+                                value="remember">Запомнить</p>
+                        <div class="block_log">
+                            <!-- <button class="log">Войти</button> -->
+                            <!-- <input id="subIn" class="log" type="submit" value="Войти"> -->
+                            <div id="subIn" class="log">
+                                <p class="in">Вход</p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="channels_group">
+            <div class="channel_item">
+                <div class="logo_channel">
+                    <img class="logo_first" src="/img/first.png" alt="">
+                </div>
+                <div class="group">
+                    <p class="title_first">Первый канал</p>
+                    <div class="group_in">
+                        <div class="time_channel">
+                            <p class="time1">13:00</p>
+                            <p class="time2">14:00</p>
+                            <p class="time2">15:00</p>
+                        </div>
+                        <div class="name_channel">
+                            <p class="name1">Новости (с субтитрами)</p>
+                            <p class="name2">Давай поженимся</p>
+                            <p class="name2">Другие новости</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="channel_item">
+                <div class="logo_channel">
+                    <img class="twoxtwo_block" src="img/2x2.png" alt="">
+                </div>
+                <div class="group">
+                    <p class="title_first">2x2</p>
+                    <div class="group_in">
+                        <div class="time_channel">
+                            <p class="time1">13:00</p>
+                            <p class="time2">14:00</p>
+                            <p class="time2">15:00</p>
+                        </div>
+                        <div class="name_channel">
+                            <p class="name1">МУЛЬТ ТВ. Сезон 4, 7 серия</p>
+                            <p class="name2">ПОДОЗРИТЕЛЬНАЯ СОВА. Сезон 7, 7 серия</p>
+                            <p class="name2">БУРДАШЕВ. Сезон 1, 20 серия</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="channel_item">
+                <div class="logo_channel">
+                    <img class="rbk_block" src="img/rbk.png" alt="">
+                </div>
+                <div class="group">
+                    <p class="title_first">РБК</p>
+                    <div class="group_in">
+                        <div class="time_channel">
+                            <p class="time1">13:00</p>
+                            <p class="time2">14:00</p>
+                            <p class="time2">15:00</p>
+                        </div>
+                        <div class="name_channel">
+                            <p class="name1">ДЕНЬ. Горючая смесь: как бороться с суррогатом на АЗС</p>
+                            <p class="name2">ДЕНЬ. Главные темы</p>
+                            <p class="name2">Главные новости</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="channel_item">
+                <div class="logo_channel">
+                    <img class="amedia_block" src="img/amedia.png" alt="">
+                </div>
+                <div class="group">
+                    <p class="title_first">AMEDIA PREMIUM</p>
+                    <div class="group_in">
+                        <div class="time_channel">
+                            <p class="time1">13:00</p>
+                            <p class="time2">14:00</p>
+                            <p class="time2">15:00</p>
+                        </div>
+                        <div class="name_channel">
+                            <p class="name1">Клиент всегда мёртв</p>
+                            <p class="name2">Голодные игры: Сойка-пересмешница. Часть I</p>
+                            <p class="name2">Секс в большом городе</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="channel_item">
+                <div class="logo_channel">
+                    <img class="ctc_block" src="img/ctc.png" alt="">
+                </div>
+                <div class="group">
+                    <p class="title_first">СТС</p>
+                    <div class="group_in">
+                        <div class="time_channel">
+                            <p class="time1">13:00</p>
+                            <p class="time2">14:00</p>
+                            <p class="time2">15:00</p>
+                        </div>
+                        <div class="name_channel">
+                            <p class="name1">Клиент всегда мёртв</p>
+                            <p class="name2">Голодные игры: Сойка-пересмешница. Часть I</p>
+                            <p class="name2">Секс в большом городе</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="channel_item">
+                <div class="logo_channel">
+                    <img class="pt_block" src="img/pt.png" alt="">
+                </div>
+                <div class="group">
+                    <p class="title_first">Пятница!</p>
+                    <div class="group_in">
+                        <div class="time_channel">
+                            <p class="time1">13:00</p>
+                            <p class="time2">14:00</p>
+                            <p class="time2">15:00</p>
+                        </div>
+                        <div class="name_channel">
+                            <p class="name1">Клиент всегда мёртв</p>
+                            <p class="name2">Голодные игры: Сойка-пересмешница. Часть I</p>
+                            <p class="name2">Секс в большом городе</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="foot">
+        <div class="wrap wrap_foot">
+            <div class="logo_foot">
+                <img src="img/Vector (1).png" alt="">
+            </div>
+            <div class="info_foot">
+                <p class="address">426057, Россия, Удмуртская Республика, г. Ижевск, ул. Карла Маркса, 246 (ДК
+                    «Металлург»)</p>
+                <p class="phone">+7 (3412) 93-88-61, 43-29-29</p>
+                <a class="a_link_foot" href="#">
+                    <p class="link_foot">htc-cs.ru</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
