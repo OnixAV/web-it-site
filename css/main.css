@@ -12,6 +12,14 @@ body {
     overflow-x: hidden;
 }
 
+li {
+    list-style-type: none;
+}
+
+#film_menu {
+    display: flex;
+}
+
 ::-webkit-scrollbar {
     width: 8px;
 }
@@ -508,6 +516,10 @@ input {
     background: #F2F2F2;
     border-radius: 8px;
     display: flex;
+    /* margin-bottom: 72px; */
+}
+
+#channel_menu {
     margin-bottom: 72px;
 }
 

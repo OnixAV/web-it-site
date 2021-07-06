@@ -50,34 +50,41 @@ function show_data() {
     val_btn.value = 1
   }
   if (document.getElementById('myBtn').value == 1) {
-    document.getElementById('myBtn').onclick = function(){
+    document.getElementById('myBtn').onclick = function () {
       localStorage.clear()
       location.reload();
     }
   }
-  
+
 }
 show_data();
 
-function srch() {
-  // var input, filter, ul, li, p, i;
+
+document.querySelector("input[type=\"text\"]").addEventListener("input", (e) => {
+  [...document.querySelectorAll("ul li")].forEach(item => {
+    if (item.textContent.toLowerCase().includes(e.target.value.toLowerCase())) {
+      item.style.display = "block";
+    } else {
+      item.style.display = "none";
+    }
+  });
+});
+
+// function srch() {
+  // var input, filter, ul, li, a, i;
   // input = document.getElementById("search_film");
   // filter = input.value.toUpperCase();
-  // ul = document.getElementById("item_films");
+  // ul = document.getElementById("film_menu");
   // li = ul.getElementsByTagName("li");
 
   // for (i = 0; i < li.length; i++) {
-  //   p = li[i].getElementsByTagName("p")[0];
-  //   if (p.innerHTML.toUpperCase().indexOf(filter) > -1) {
+  //   // a = li[i].getElementsByTagName("a")[0];
+  //   a = li[i].getElementsByClassName("item-hd")[0]
+  //   if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
   //     li[i].style.display = "";
   //   } else {
   //     li[i].style.display = "none";
   //   }
   // }
-
-  // function saveMe() {
-  //   let log = document.getElementById('in_login')
-
-  // }
-}
+// }
 
