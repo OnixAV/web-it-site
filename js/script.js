@@ -59,32 +59,16 @@ function show_data() {
 }
 show_data();
 
-
 document.querySelector("input[type=\"text\"]").addEventListener("input", (e) => {
-  [...document.querySelectorAll("ul li")].forEach(item => {
+  [...document.querySelectorAll("ul p")].forEach(item => {
     if (item.textContent.toLowerCase().includes(e.target.value.toLowerCase())) {
-      item.style.display = "block";
-    } else {
-      item.style.display = "none";
+      item.parentElement.style.display = "block"
+    } 
+    else {
+      item.parentElement.style.display = "none"
     }
   });
 });
 
-// function srch() {
-  // var input, filter, ul, li, a, i;
-  // input = document.getElementById("search_film");
-  // filter = input.value.toUpperCase();
-  // ul = document.getElementById("film_menu");
-  // li = ul.getElementsByTagName("li");
 
-  // for (i = 0; i < li.length; i++) {
-  //   // a = li[i].getElementsByTagName("a")[0];
-  //   a = li[i].getElementsByClassName("item-hd")[0]
-  //   if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-  //     li[i].style.display = "";
-  //   } else {
-  //     li[i].style.display = "none";
-  //   }
-  // }
-// }
 

@@ -259,6 +259,7 @@ input {
 
 .item1, .item2, .item3, .item4 {
     width: 300px;
+    height: 435px;
     position: relative;
     overflow: hidden;
 }
@@ -285,6 +286,11 @@ input {
     line-height: 140%;
     color: #F2F2F2;
     height: 90%;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
 }
 
 .title1, .title2, .title3, .title4 {
@@ -348,6 +354,11 @@ input {
     font-size: xx-large;
     margin: auto;
     margin-top: 25%;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
 }
 
 .comedy, .dram, .fantasy, .fr {
@@ -359,6 +370,11 @@ input {
     color: #FFFFFF;
     text-align: center;
     padding-top: 32px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
 }
 
 .foot {
