@@ -49,6 +49,7 @@ function show_data() {
     let val_btn = document.getElementById('myBtn')
     val_btn.value = 1
   }
+  
   if (document.getElementById('myBtn').value == 1) {
     document.getElementById('myBtn').onclick = function () {
       localStorage.clear()
@@ -69,6 +70,4 @@ document.querySelector("input[type=\"text\"]").addEventListener("input", (e) => 
     }
   });
 });
-
-
 
