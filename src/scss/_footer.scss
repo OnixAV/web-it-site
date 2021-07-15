@@ -1,0 +1,46 @@
+.foot {
+    background-color: #F2F2F2;
+}
+
+.logo_foot {
+    width: 33px;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.address, .phone {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+
+.info_foot {
+    width: fit-content;
+    margin-left: 40px;
+    margin-top: 22px;
+}
+
+.wrap_foot {
+    display: flex;
+}
+
+.phone {
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+
+.link_foot {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1F4766;
+}
+
+.a_link_foot {
+    text-decoration: none;
+}

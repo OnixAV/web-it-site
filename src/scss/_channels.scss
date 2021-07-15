@@ -1,0 +1,85 @@
+.channel_item {
+    background: #F2F2F2;
+    border-radius: 8px;
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.channel_item:last-child {
+    background: #F2F2F2;
+    border-radius: 8px;
+    display: flex;
+}
+
+#channel_menu {
+    margin-bottom: 72px;
+}
+
+.logo_first, .twoxtwo_block, .rbk_block, .amedia_block, .ctc_block, .pt_block {
+    width: fit-content;
+    display: block;
+    margin: 0 auto;
+    padding-top: 10%;
+}
+
+.pt_block {
+    width: 50%;
+    height: 50%;
+}
+
+.logo_channel {
+    width: 400px;
+}
+
+.channels_group {
+    margin-top: 36px;
+}
+
+.title_first {
+    padding-top: 21px;
+    font-family: Rubik, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.time_channel, .name_channel {
+    padding-top: 17px;
+}
+
+.time_channel {
+    padding-right: 16px;
+}
+
+.time1, .name1 {
+    font-family: Rubik, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #E5261E;
+}
+
+.time2, .name2 {
+    font-family: Rubik, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    padding-top: 12px;
+}
+
+.time2:last-child, .name2:last-child {
+    font-family: Rubik, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    padding-top: 12px;
+    padding-bottom: 19px;
+}
+
+.group_in {
+    display: flex;
+}

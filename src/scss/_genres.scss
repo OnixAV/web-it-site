@@ -1,0 +1,99 @@
+.cat_t {
+    padding-top: 35px;
+    font-family: Rubik, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    padding-bottom: 15px;
+}
+
+.c1, .c2, .c3, .c4 {
+    border-radius: 8px;
+    width: 280px;
+    height: 208px;
+}
+
+.c1 {
+    background: linear-gradient(127.83deg, #F2C94C 8.44%, #F29A4A 91.36%);
+    box-shadow: inset 0px 0px 16px rgba(0, 0, 0, 0.15);
+}
+
+.c2 {
+    background: linear-gradient(127.83deg, #F2994A 8.44%, #EB5757 91.36%);
+    opacity: 0.8;
+    box-shadow: inset 0px 0px 16px rgba(0, 0, 0, 0.15);
+}
+
+.c3 {
+    background: linear-gradient(127.83deg, #56CCF2 8.44%, #2F80ED 91.36%);
+    opacity: 0.8;
+    box-shadow: inset 0px 0px 16px rgba(0, 0, 0, 0.15);
+}
+
+.c4 {
+    background: linear-gradient(127.83deg, #828282 8.44%, #333333 91.36%);
+    opacity: 0.8;
+    box-shadow: inset 0px 0px 16px rgba(0, 0, 0, 0.15);
+}
+
+.categories {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 75px;
+}
+
+.smile1, .smile2, .smile3, .smile4 {
+    width: 48px;
+    height: 48px;
+    font-size: xx-large;
+    margin: auto;
+    margin-top: 25%;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.comedy, .dram, .fantasy, .fr {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 32px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.c1:hover {
+    border-radius: 8px;
+    width: 280px;
+    height: 208px;
+    background: linear-gradient(127.83deg, #cfa011 8.44%, #c06612 91.36%);
+    box-shadow: inset 0px 0px 16px rgba(0, 0, 0, 0.15);
+}
+
+.c2:hover {
+    background: linear-gradient(127.83deg, #e6822a 8.44%, #d63636 91.36%);
+    opacity: 0.8;
+    box-shadow: inset 0px 0px 16px rgba(0, 0, 0, 0.15);
+}
+
+.c3:hover {
+    background: linear-gradient(127.83deg, #37a9cf 8.44%, #1c64c2 91.36%);
+    opacity: 0.8;
+    box-shadow: inset 0px 0px 16px rgba(0, 0, 0, 0.15);
+}
+
+.c4:hover {
+    background: linear-gradient(127.83deg, #666565 8.44%, #181717 91.36%);
+    opacity: 0.8;
+    box-shadow: inset 0px 0px 16px rgba(0, 0, 0, 0.15);
+}
