@@ -1,5 +1,6 @@
 let modal = document.getElementById("myModal")
 let btn = document.getElementById("myBtn")
+let block = document.getElementsByClassName("modal");
 
 btn.onclick = function () {
   modal.style.display = "block"

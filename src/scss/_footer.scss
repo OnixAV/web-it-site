@@ -1,5 +1,7 @@
+@import "../scss/variables.scss";
+
 .foot {
-    background-color: #F2F2F2;
+    background-color: $white;
 }
 
 .logo_foot {
@@ -9,18 +11,18 @@
 }
 
 .address, .phone {
-    font-family: Rubik;
+    font-family: $main-font;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 700;
     font-size: 16px;
     line-height: 19px;
-    color: #333333;
+    color: $text-color;
 }
 
 .info_foot {
     width: fit-content;
-    margin-left: 40px;
-    margin-top: 22px;
+    margin-left: 42px;
+    margin-top: 20px;
 }
 
 .wrap_foot {
@@ -33,12 +35,12 @@
 }
 
 .link_foot {
-    font-family: Rubik;
+    font-family: $main-font;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 16px;
     line-height: 19px;
-    color: #1F4766;
+    color: $link-color;
 }
 
 .a_link_foot {

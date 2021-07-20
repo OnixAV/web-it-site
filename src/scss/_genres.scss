@@ -1,8 +1,10 @@
+@import "../scss/variables.scss";
+
 .cat_t {
-    padding-top: 35px;
-    font-family: Rubik, sans-serif;
+    padding-top: 32px;
+    font-family: $main-font;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 24px;
     line-height: 28px;
     padding-bottom: 15px;
@@ -48,7 +50,7 @@
     height: 48px;
     font-size: xx-large;
     margin: auto;
-    margin-top: 25%;
+    margin-top: 28%;
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
@@ -57,12 +59,12 @@
 }
 
 .comedy, .dram, .fantasy, .fr {
-    font-family: Rubik;
+    font-family: $main-font;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: $white;
     text-align: center;
     padding-top: 32px;
     -moz-user-select: none;

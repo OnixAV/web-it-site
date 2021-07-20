@@ -1,12 +1,14 @@
+@import "../scss/variables.scss";
+
 .channel_item {
-    background: #F2F2F2;
+    background: $white;
     border-radius: 8px;
     display: flex;
     margin-bottom: 16px;
 }
 
 .channel_item:last-child {
-    background: #F2F2F2;
+    background: $white;
     border-radius: 8px;
     display: flex;
 }
@@ -15,7 +17,35 @@
     margin-bottom: 72px;
 }
 
-.logo_first, .twoxtwo_block, .rbk_block, .amedia_block, .ctc_block, .pt_block {
+.logo_first {
+    width: fit-content;
+    display: block;
+    margin: 0 auto;
+    padding-top: 12%;
+}
+
+.twoxtwo_block {
+    width: fit-content;
+    display: block;
+    margin: 0 auto;
+    padding-top: 14%;
+}
+
+.rbk_block {
+    width: fit-content;
+    display: block;
+    margin: 0 auto;
+    padding-top: 13%;
+}
+
+.amedia_block {
+    width: fit-content;
+    display: block;
+    margin: 0 auto;
+    padding-top: 13%;
+}
+
+.ctc_block {
     width: fit-content;
     display: block;
     margin: 0 auto;
@@ -25,6 +55,9 @@
 .pt_block {
     width: 50%;
     height: 50%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 10%;
 }
 
 .logo_channel {
@@ -32,12 +65,12 @@
 }
 
 .channels_group {
-    margin-top: 36px;
+    margin-top: 66px;
 }
 
 .title_first {
     padding-top: 21px;
-    font-family: Rubik, sans-serif;
+    font-family: $main-font;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -53,16 +86,16 @@
 }
 
 .time1, .name1 {
-    font-family: Rubik, sans-serif;
+    font-family: $main-font;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
-    color: #E5261E;
+    color: $btn-red;
 }
 
 .time2, .name2 {
-    font-family: Rubik, sans-serif;
+    font-family: $main-font;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -71,7 +104,7 @@
 }
 
 .time2:last-child, .name2:last-child {
-    font-family: Rubik, sans-serif;
+    font-family: $main-font;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;

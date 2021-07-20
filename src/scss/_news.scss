@@ -1,11 +1,13 @@
+@import "../scss/variables.scss";
+
 .new_title {
-    font-family: Rubik, sans-serif;
+    font-family: $main-font;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 24px;
     line-height: 28px;
-    color: #333333;
-    padding-top: 41px;
+    color: $text-color;
+    padding-top: 70px;
 }
 
 .title {
@@ -52,12 +54,12 @@
     padding-left: 16px;
     padding-right: 16px;
     padding-bottom: 16px;
-    font-family: Rubik;
+    font-family: $main-font;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 140%;
-    color: #F2F2F2;
+    color: $white;
     height: 90%;
     -moz-user-select: none;
     -webkit-user-select: none;
@@ -68,10 +70,10 @@
 
 .title1, .title2, .title3, .title4 {
     padding-top: 11px;
-    font-family: Rubik;
+    font-family: $main-font;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 24px;
-    color: #333333;
+    color: $text-color;
 }
